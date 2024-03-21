@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.razorpay.Checkout;
+import com.pay.Checkout;
 import com.razorpay.PaymentResultListener;
 
 import org.json.JSONException;
@@ -58,7 +58,7 @@ public class Payment extends AppCompatActivity implements PaymentResultListener 
             public void onClick(View view) {
                 Checkout checkout = new Checkout();
 
-                checkout.setKeyID("rzp_test_wE4upNJmnyqzPS");
+                checkout.setKeyID("YourRazorPayKeyID");
 
                 checkout.setImage(R.drawable.rzp_logo);
 
