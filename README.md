@@ -81,6 +81,6 @@ immediate information about running movies and reserve their
 seat without wasting their precious time. User friendly Interface
 also for the admin to add and delete movie information. User can
 get to know different kinds of books that they were unaware of by
-just searching in the system using keywords
+just searching in the system using keywords.
 
-Thank You
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
